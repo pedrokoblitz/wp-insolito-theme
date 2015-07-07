@@ -1,0 +1,6 @@
+IDS DAS CATEGORIAS
+
+desenho 4
+software 54
+notas 1
+negócios 56

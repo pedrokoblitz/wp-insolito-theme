@@ -1,0 +1,166 @@
+/** style.css
+ * 
+ * Theme Name:	Insolito
+ * Theme URI:	http://wiki.ideiasinsolitas.com.br/
+ * Description:	A WordPress Theme based on <strong>Bootstrap, from Twitter</strong> the-bootstrap by Konstantin Obenland <konstantin@obenland.it>.
+ * Author:	Pedro Koblitz
+ * Author URI:	http://ideiasinsolitas.com.br/
+ * Version:	1.0.0
+ * Tags:	js and jsonapi plugin
+ * Domain Path:	/lang
+ *
+ * License:		GNU General Public License v3.0
+ * License URI:	http://www.gnu.org/licenses/gpl-3.0.html
+ *
+ *
+ *	Copyright (C) 2014 Pedro Koblitz <pedrokoblitz@gmail.com>
+ *
+ *	This program is free software: you can redistribute it and/or modify
+ *	it under the terms of the GNU General Public License as published by
+ *	the Free Software Foundation, either version 3 of the License, or
+ *	(at your option) any later version.
+ *
+ *	This program is distributed in the hope that it will be useful,
+ *	but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *	GNU General Public License for more details.
+ *
+ *	You should have received a copy of the GNU General Public License
+ *	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+
+.aligncenter {
+    display:block;
+    margin: 0 auto 20px;
+}
+
+.alignright {
+    float:right;
+    margin: 0 0 20px 20px;
+}
+
+.alignleft {
+    float:left;
+    margin: 0 20px 20px 0;
+}
+
+.wp-caption {
+	max-width: 100%;
+}
+
+.wp-caption .wp-caption-text,
+.gallery-caption,
+.entry-caption {
+	padding: 0 9px 9px;
+	text-align: center;
+}
+
+.wp-caption .wp-caption-text {
+	padding-top: 9px;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+
+
+/* =Styles
+-------------------------------------------------------------- */
+
+body {font-family:'Source Sans Pro';}
+
+a:hover {text-decoration:none;}
+
+.post p {font-size:1.05em; line-height:1.2em; font-weight:300;}
+
+h1,h2,h3 {font-family:'Source Sans Pro'; font-weight:200; letter-spacing:-0.03em;}
+
+h4,h5,h6 {font-family:'Source Sans Pro'; font-weight:400;}
+
+h1#site-title, h1.page-title, h1.entry-title {}
+
+.post p {font-size:1.2em; line-height:2em;}
+
+body.page h1.entry-title, 
+body.single h1.entry-title, 
+h1.page-title, 
+body.category h1.texto-bomba, 
+body.home h1#site-title {
+	text-transform:uppercase;
+	font-size:2em; 
+	line-height:0.85em;
+}
+
+body.home h1#site-title {
+	text-transform:none;
+}
+
+header.page-header {margin:10px 0;}
+
+body.home h1.entry-title, body.single h1.texto-bomba {display:none;}
+
+body.category-desenho p.pull-right {font-weight:400; font-size:11px;}
+
+body.category-desenho p {font-weight:400; font-size:11px; text-align:center;}
+
+span.del {font-family:Arial, sans; font-size:0.4em; font-weight:100;}
+
+body.category h1.texto-bomba, body.single h1.entry-title {font-size:4em; line-height:1.1em;}
+
+#primary {
+	height:500px;
+}
+
+#primary text {
+	font-family:Source Sans Pro;
+	font-size:14px;
+	fill:#000
+}
+
+#tag {
+	font-weight:200;
+	font-size:28px;
+}
+
+#post, #lista {
+	display:none;
+}
+
+#post h4 {
+	line-height:1.2em;
+}
+
+#conteudo {
+	display:none;
+	margin:20px;
+	padding:20px;
+	border:1px solid #666;
+}
+
+#conteudo .fecha {
+	float:right;
+	display:inline;
+	cursor:pointer;
+}
+
+.navCapa {
+	line-height:6px;
+}
+
+html {
+	margin-top:0 !important;
+}
